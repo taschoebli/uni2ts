@@ -1,3 +1,10 @@
+optuna:
+  enabled: true
+  study_name: "moirai_hparam_search"
+  direction: "minimize"
+  n_trials: 20
+  pruner:
+    _target_: optuna.pruners.MedianPruner
 hydra:
   run:
     dir: outputs/finetune/${hydra:runtime.choices.model}/${hydra:runtime.choices.data}/${run_name}
