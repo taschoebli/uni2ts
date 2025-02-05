@@ -31,7 +31,7 @@ Related reading: [Moirai Paper](https://arxiv.org/abs/2402.02592), [Moirai Sales
 
 1. Clone repository:
 ```shell
-git clone https://github.com/taschoebli/uni2ts.git
+git clone https://github.com/SalesforceAIResearch/uni2ts.git
 cd uni2ts
 ```
 
