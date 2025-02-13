@@ -6,7 +6,7 @@ _args_:
   eval_length: 2183 # April 01.04.2024 00:00 till June 30.06.2024 23:00
   prediction_lengths: [24]
   context_lengths: [24, 48, 96, 192]
-  patch_sizes: [2, 64, 128]
+  patch_sizes: [32, 64, 128]
   #_target_: uni2ts.data.builder.simple.generate_eval_builders
   #dataset: customdataset_eval
   #offset: 10967 #June 30.06.2024 23:00
