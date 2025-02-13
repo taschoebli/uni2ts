@@ -1,3 +1,2 @@
 _target_: uni2ts.data.builder.simple.SimpleDatasetBuilder
 dataset: customdataset
-weight: 1000
