@@ -59,7 +59,7 @@ train_dataloader:
   batch_size_factor: 2.0
   cycle: true
   num_batches_per_epoch: 100
-  shuffle: true
+  shuffle: false
   num_workers: 11
   collate_fn:
     _target_: uni2ts.data.loader.PackCollate
